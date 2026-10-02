@@ -6,7 +6,7 @@ It is designed with a persistent foreground service to run silently in the backg
 
 **IMPORTANT:** You **must** use headphones or a headset of some description while using this app. Using the phone's built in speakers will cause the microphone to pick up the altered voice, creating a harsh feedback loop.
 
-![VoiceChangerDemo](VoiceChangerDemo.gif)
+<img src="VoiceChangerDemo.gif" width="250">
 
 ## How to Run & Use the Application
 1. Go to the **Releases** tab of this GitHub page.
