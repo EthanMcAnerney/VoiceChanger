@@ -23,7 +23,7 @@ It is designed with a persistent foreground service to run silently in the backg
 *   **Dynamic UI Generation:** Instead of hardcoding sliders in XML, the UI builds itself from the audio parameter lists. This keeps the frontend and DSP engine in sync and makes adding new effects easy.
 *   **Asynchronous Storage:** Uses Jetpack DataStore to safely save, rename, reorder, and delete custom presets on a background thread.
 *   **Custom DSP:** Built the core audio effects (Noise Gate, Pitch Shifting, EQs, ...) using Faust, compiling them directly into the C++ backend.
-*   
+
 ## Tech Stack 
 *   **Frontend:** Kotlin / Android XML
 *   **Audio Backend:** C++ (JNI) / Google Oboe
